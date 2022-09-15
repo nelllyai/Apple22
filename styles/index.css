@@ -1,0 +1,29 @@
+@import 'normalize.css';
+@import 'default.css';
+
+.footer {
+    background-color: black;
+    color: white;
+}
+
+.footer__content {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 45px;
+}
+
+.footer__logo {
+    fill: #fff;
+}
+
+.navigation__list {
+    line-height: 24px;
+    font-size: 20px;
+    display: flex;
+    width: 327px;
+    justify-content: space-between;
+}
+
+.footer__copyright {
+    font-weight: 200;
+}
